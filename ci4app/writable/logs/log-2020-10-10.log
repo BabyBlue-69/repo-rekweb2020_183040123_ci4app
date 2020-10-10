@@ -1,0 +1,6 @@
+CRITICAL - 2020-10-10 01:45:21 --> Too few arguments to function App\Controllers\Coba::about(), 0 passed in D:\aplikasi\XAMPP\htdocs\ci4app\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\aplikasi\XAMPP\htdocs\ci4app\system\CodeIgniter.php(918): App\Controllers\Coba->about()
+#1 D:\aplikasi\XAMPP\htdocs\ci4app\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#2 D:\aplikasi\XAMPP\htdocs\ci4app\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\aplikasi\XAMPP\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
